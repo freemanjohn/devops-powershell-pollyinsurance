@@ -61,8 +61,6 @@ This function generates random policy data for testing and demonstration purpose
 
     begin {}
     process {
-        $PolicyData = @()
-
         # Generate random policies
         $GivenName = Get-Random -InputObject $GivenNames
         $Surname = Get-Random -InputObject $Surnames
@@ -79,7 +77,5 @@ This function generates random policy data for testing and demonstration purpose
         $Policy
     }
     end {
-        # Output the generated policies
-        return $PolicyData
     }
 }
