@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <NuspecFile>PollyInsurance.nuspec</NuspecFile>
+    <NoBuild>true</NoBuild>
+    <NoRestore>true</NoRestore>
+    <NoWarn>NU5111,NU5110</NoWarn>
+  </PropertyGroup>
+</Project>

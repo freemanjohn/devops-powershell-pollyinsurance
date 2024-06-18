@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package>
+  <metadata>
+    <id>PollyInsurance</id>
+    <version>@version@</version>
+    <title>PollyInsurance</title>
+    <authors>John Freeman</authors>
+    <owners>John Freeman</owners>
+<!--
+    <licenseUrl>https://www.website.com/terms</licenseUrl>
+    <projectUrl>https://www.website.com/project</projectUrl>
+    <iconUrl>https://www.website.com/logo.png</iconUrl>
+-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>PowerShell module for PollyInsurance</description>
+    <repository type="git" url="https://github.com/freemanjohn/devops-powershell-pollyinsurance.git"></repository>
+    <releaseNotes>@version@ release</releaseNotes>
+    <copyright></copyright>
+    <tags>powershell psmodule PollyInsurance</tags>
+<!--
+    <dependencies>
+      <dependency id="bootstrap" version="4.1.1" />
+      <dependency id="FontAwesome" version="4.7.0" />
+    </dependencies>
+-->
+    <summary>A powershell package for PollyInsurance functions</summary>
+  </metadata>
+  <files>
+    <file src="README.md" />
+    <file src="PollyInsurance.psd1" />
+    <file src="PollyInsurance.psm1" />
+    <file src="PollyInsurance.nuspec" />
+    <file src="functions\**" target="functions" />
+  </files>
+</package>
