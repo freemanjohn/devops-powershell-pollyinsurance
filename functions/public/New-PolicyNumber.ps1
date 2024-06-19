@@ -1,5 +1,4 @@
-function New-PolicyNumber
-{
+function New-PolicyNumber {
 <#
 .SYNOPSIS
 Generates a new policy number with a specified prefix and length.
